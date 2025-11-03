@@ -1,6 +1,4 @@
-const fs = require('fs');
 
-const readmeContent = `
 # Dero - Collaborative Drawing Platform
 
 Dero is a real-time collaborative drawing platform that allows users to create drawing rooms with integrated voice communication. It enables multiple participants to join sessions where they can draw together on a shared canvas while discussing ideas through seamless voice chat.
@@ -25,12 +23,4 @@ Dero is a real-time collaborative drawing platform that allows users to create d
 
 ## License
 MIT License
-`;
-
-fs.writeFile('README.md', readmeContent.trim(), (err) => {
-  if (err) {
-    console.error('Error writing README.md', err);
-  } else {
-    console.log('README.md created successfully!');
-  }
-});
+`
